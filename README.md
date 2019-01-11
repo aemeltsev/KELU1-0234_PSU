@@ -1,1 +1,3 @@
 # KELU1-0234PSU
+
+![PCB image][KELU1-0234-PCB]
