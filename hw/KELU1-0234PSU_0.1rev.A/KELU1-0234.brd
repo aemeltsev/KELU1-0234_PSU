@@ -100,7 +100,7 @@
 <hole x="18" y="14" drill="2"/>
 <hole x="6.3" y="18.2" drill="2"/>
 <hole x="13.6" y="18.2" drill="2"/>
-<hole x="24.6" y="39.75" drill="2"/>
+<hole x="24.6" y="39.5" drill="2"/>
 <hole x="24.6" y="34.65" drill="2"/>
 <hole x="24.6" y="27.15" drill="2"/>
 <wire x1="0" y1="0" x2="0" y2="85" width="0" layer="20"/>
@@ -3371,9 +3371,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.895" y="79.82" size="1.016" layer="26" font="vector" ratio="15" rot="MR270"/>
 <attribute name="VALUE" x="18.67" y="80.07" size="1.016" layer="28" rot="MR270"/>
 </element>
-<element name="C15" library="resistor" package="C0805K" value="0.1u" x="30.08" y="79.07" smashed="yes" rot="MR270">
-<attribute name="NAME" x="32.455" y="80.57" size="1.016" layer="26" font="vector" ratio="15" rot="MR270"/>
-<attribute name="VALUE" x="31.98" y="80.07" size="1.016" layer="28" rot="MR270"/>
+<element name="C15" library="resistor" package="C0805K" value="0.1u" x="30.08" y="79.32" smashed="yes" rot="MR270">
+<attribute name="NAME" x="32.455" y="80.82" size="1.016" layer="26" font="vector" ratio="15" rot="MR270"/>
+<attribute name="VALUE" x="31.98" y="80.32" size="1.016" layer="28" rot="MR270"/>
 </element>
 <element name="L2" library="inductors" package="82114R" value="4u" x="21.5" y="81.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.46" y="78.071" size="1.016" layer="25" font="vector" ratio="15" rot="R180"/>
@@ -3918,7 +3918,7 @@ design rules under a new name.</description>
 <vertex x="23" y="80.75"/>
 </polygon>
 <contactref element="P1" pad="1"/>
-<wire x1="30.08" y1="80.07" x2="30.08" y2="80.92" width="0.3048" layer="16"/>
+<wire x1="30.08" y1="80.32" x2="30.08" y2="80.92" width="0.3048" layer="16"/>
 <wire x1="30.08" y1="80.92" x2="30" y2="81" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$22">
@@ -4183,7 +4183,8 @@ design rules under a new name.</description>
 <signal name="N$33">
 <contactref element="C20" pad="2"/>
 <contactref element="R21" pad="1"/>
-<wire x1="4.68" y1="75.07" x2="4.81" y2="77.39" width="0" layer="19" extent="16-16"/>
+<wire x1="4.81" y1="77.39" x2="4.68" y2="77.39" width="0.8128" layer="16"/>
+<wire x1="4.68" y1="77.39" x2="4.68" y2="75.07" width="0.8128" layer="16"/>
 </signal>
 <signal name="GND1">
 <contactref element="C13" pad="-"/>
