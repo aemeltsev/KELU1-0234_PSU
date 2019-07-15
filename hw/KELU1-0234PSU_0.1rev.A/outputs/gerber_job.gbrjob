@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.0.0*%
+%TF.CreationDate,2019-06-10T11:01:15Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Anthony Emeltsev <aemeltsev@gmail.com>*%
+%TJ.B_ID,KELU1-0234*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,50.000000*%
+%TJ.B_Size_Y,85.000000*%
+M02*
